@@ -220,7 +220,7 @@ create_filters <- function(data, vars = NULL,
             pickerInput(
               inputId = ns(id),
               choices = values, 
-              selected = values, 
+              selected = NULL, 
               label = NULL,
               multiple = TRUE, 
               width = width, 
